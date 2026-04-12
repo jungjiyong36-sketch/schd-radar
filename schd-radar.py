@@ -195,4 +195,16 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown("<br><br><p style='text-align:center; color:gray; font-size:0.75rem; padding-bottom:50px;'>© Besmelt | SCHD investing Radar </p>", unsafe_allow_html=True)
+st.markdown("<br><br>", unsafe_allow_html=True)
+st.divider()
+
+import streamlit.components.v1 as components
+components.html(
+    """
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2894031755177844"
+     crossorigin="anonymous"></script>
+    """,
+    height=0,
+)
+
+st.markdown("<p style='text-align:center; color:gray; font-size:0.75rem; padding-bottom:50px;'>© Besmelt | SCHD investing Radar | Data provided by Yahoo Finance </p>", unsafe_allow_html=True)
