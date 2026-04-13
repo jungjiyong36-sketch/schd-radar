@@ -2,3 +2,5 @@ streamlit
 yfinance
 pandas
 plotly
+pytz
+pandas_market_calendars
